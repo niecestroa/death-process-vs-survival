@@ -112,3 +112,8 @@ This comparison highlights strengths and limitations of each approach and explor
 
 > “To our knowledge, this is the first study to use a Pure death process to explain the diffences survival functions and other similar regression methods.”
 
+---
+
+## **Disclaimer (Academic Use Only)**  
+This repository and all associated analyses, simulations, figures, and documentation are intended **solely for academic, educational, and research purposes**. The methods, models, and results presented here **must not** be used for clinical decision‑making, medical guidance, or real‑world patient care.
+
