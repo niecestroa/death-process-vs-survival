@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-14T06:15:19Z",
+  "_captured_run_id": "r_9a5ffd69aff240bfa28761b2b848b8e7",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote WORK.Diabetes_unclean (35 rows, 15 columns).",
+    "NOTE: PROC CONTENTS completed: 35 observations, 15 variables",
+    "NOTE: Wrote WORK.Diabetes_clean (35 rows, 8 columns).",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,40 @@
+                         The GLM Procedure                         
+                 Dependent Variable: pulse_rate_t                  
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+bmi_cat          3         0.06960      0.02320      0.76    0.5273
+Error           31         0.95123      0.03068                    
+
+Root MSE           0.17517    R-Square            0.0682
+Adj R-Sq           -0.0220
+
+                 Dependent Variable: systolic_bp_t                 
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+bmi_cat          3         0.05028      0.01676      0.64    0.5971
+Error           31         0.81603      0.02632                    
+
+                Dependent Variable: diastolic_bp_t                 
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+bmi_cat          3         0.09790      0.03263      1.87    0.1561
+Error           31         0.54243      0.01750                    
+
+                   Dependent Variable: glucose_t                   
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+bmi_cat          3         0.19291      0.06430      1.30    0.2908
+Error           31         1.52899      0.04932                    
+
+MANOVA Test Criteria and F Approximations for the Hypothesis of No Overall bmi_cat Effect
+
+Statistic                  Value   F Value    Num DF    Den DF    Pr > F
+----------------------  --------  --------  --------  --------  --------
+Wilks' Lambda           0.679613      0.97        12        74    0.4810
+Pillai's Trace          0.356166      1.01        12        90    0.4463
+Hotelling-Lawley Trace  0.420368      0.93        12        80    0.5178
+Roy's Greatest Root     0.244765      1.84         4        30    0.1480

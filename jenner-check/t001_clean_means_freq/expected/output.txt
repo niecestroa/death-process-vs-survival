@@ -1,0 +1,78 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: WORK.Diabetes_unclean
+Observations:  35
+Variables:     15
+
+Variables (in alphabetical order):
+
+  #  Variable                Type    Len  Format  Label
+---  ----------------------  ----  -----  ------  -----
+  1  age                      Num      8          
+  2  bmi                      Num      8          
+  3  cardiovascular_disease   Num      8          
+  4  diabetic                Char      3          
+  5  diastolic_bp             Num      8          
+  6  family_diabetes          Num      8          
+  7  family_hypertension      Num      8          
+  8  gender                  Char      6          
+  9  glucose                  Num      8          
+ 10  height                   Num      8          
+ 11  hypertensive             Num      8          
+ 12  pulse_rate               Num      8          
+ 13  stroke                   Num      8          
+ 14  systolic_bp              Num      8          
+ 15  weight                   Num      8          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  gender  diabetic  age  pulse_rate  systolic_bp  diastolic_bp  glucose  height  weight    bmi  family_diabetes  hypertensive  family_hypertension  cardiovascular_disease  stroke
+-----  ------  --------  ---  ----------  -----------  ------------  -------  ------  ------  -----  ---------------  ------------  -------------------  ----------------------  ------
+    1  Female  No         18          83          124            73     6.91     1.6    46.4  18.12                0             0                    0                       0       0
+    2  Female  No         22          78          130            91     5.31    1.47    61.2   28.2                0             0                    0                       0       0
+    3  Female  No         25          84          152            90      7.2    1.52    57.7  24.84                0             0                    0                       0       0
+    4  Female  No         30          85          142            82     5.35    1.55    50.3  20.95                0             0                    0                       0       0
+    5  Female  No         32          73          130            73     4.96    1.55    49.3  20.54                0             0                    0                       0       0
+    6  Female  No         35          60          125            68     5.71    1.47    42.5  19.58                0             0                    0                       0       0
+    7  Female  No         35          66          123            72      5.4    1.42    42.3  20.91                0             0                    0                       0       0
+    8  Female  No         35          66          152            81     5.08    1.57    94.9  38.27                0             0                    0                       0       0
+    9  Female  No         35          68          161           113     6.01     1.5    62.2   27.7                0             0                    0                       0       0
+   10  Female  No         35          78          139            81     6.68    1.52    64.6  27.81                0             0                    0                       0       0
+
+... 25 more observations (showing 10 of 35)
+
+                                                  The MEANS Procedure
+
+ Variable            N            Mean        Std Dev         Minimum         Maximum
+ ------------------------------------------------------------------------------------
+ pulse_rate         35      71.1714286     12.4463217      48.0000000     104.0000000
+ systolic_bp        35     146.6571429     24.1867038     110.0000000     207.0000000
+ diastolic_bp       35      86.5428571     12.2410660      68.0000000     113.0000000
+ glucose            35       7.0931429      1.7744391       4.9600000      12.0000000
+ age                35      48.2857143     15.2036594      18.0000000      75.0000000
+ ------------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+gender    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female           25     71.43           25        71.43
+Male             10     28.57           35       100.00
+
+                                          Cumulative    Cumulative
+hypertensive    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+0                      28     80.00           28        80.00
+1                       7     20.00           35       100.00
+
+                                         Cumulative    Cumulative
+bmi_cat        Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------
+Healthy               15     42.86           15        42.86
+Obese                  6     17.14           21        60.00
+Overweight             8     22.86           29        82.86
+Underweight            6     17.14           35       100.00

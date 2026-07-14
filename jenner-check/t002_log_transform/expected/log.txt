@@ -1,0 +1,38 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T020019Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA WORK.Diabetes_unclean
+
+NOTE: Processing inline DATALINES (35 lines)
+
+NOTE: Read 35 rows from DATALINES.
+NOTE: Wrote WORK.Diabetes_unclean (35 rows, 15 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.Diabetes_clean
+
+
+NOTE: Read 35 rows from WORK.Diabetes_unclean.
+NOTE: Wrote WORK.Diabetes_clean (35 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.Diabetes_transformed
+
+
+NOTE: Read 35 rows from WORK.Diabetes_clean.
+NOTE: Wrote WORK.Diabetes_transformed (35 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=WORK.Diabetes_transformed
+
+NOTE: PROC PRINT completed: 10 observations printed, 8 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_gender.spec.json
+NOTE: ODS plot written: freq_hypertensive.spec.json
+NOTE: ODS plot written: freq_bmi_cat.spec.json
+NOTE: PROC FREQ statement used.

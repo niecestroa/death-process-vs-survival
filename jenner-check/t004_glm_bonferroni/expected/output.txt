@@ -1,0 +1,19 @@
+                         The GLM Procedure                         
+                 Dependent Variable: pulse_rate_t                  
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+bmi_cat          3         0.06960      0.02320      0.76    0.5273
+Error           31         0.95123      0.03068                    
+
+Root MSE           0.17517    R-Square            0.0682
+Adj R-Sq           -0.0220
+
+        Means for Effect: bmi_cat        
+
+Level            Mean   Std Dev         N
+-----------  --------  --------  --------
+Healthy       4.20378   0.17879        15
+Obese         4.31348   0.22502         6
+Overweight    4.25607   0.12295         8
+Underweight   4.29671   0.17013         6
