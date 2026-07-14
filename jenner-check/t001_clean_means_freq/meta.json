@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_clean_means_freq",
+  "source_file": "academic/code/MA Diabetes Code.sas",
+  "source_blob_sha": "e5da8be3a6acb3fcc23a1d75b4a607d6fcb53639",
+  "source_commit": "50807cbf7c087916c215508c1df3d2005e272526",
+  "notes": "Upstream's PROC IMPORT + clean/derive-bmi_cat DATA step + PROC MEANS + PROC FREQ (lines 11-51). PROC IMPORT of a hardcoded server path replaced by an inline DATALINES sample of the repo's own 35 rows."
+}

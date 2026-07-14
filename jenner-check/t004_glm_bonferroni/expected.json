@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T06:15:19Z",
+  "_captured_run_id": "r_e3e158d432ab4573b240c8502a7022b5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote WORK.Diabetes_transformed (35 rows, 8 columns).",
+    "NOTE: PROC GLM data=WORK.Diabetes_transformed",
+    "NOTE: PROC GLM statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

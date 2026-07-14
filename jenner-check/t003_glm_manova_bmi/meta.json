@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_glm_manova_bmi",
+  "source_file": "academic/code/MA Diabetes Code.sas",
+  "source_blob_sha": "e5da8be3a6acb3fcc23a1d75b4a607d6fcb53639",
+  "source_commit": "50807cbf7c087916c215508c1df3d2005e272526",
+  "notes": "Upstream's one-way MANOVA: transformed responses vs bmi_cat, PROC GLM with MANOVA H=bmi_cat / PRINTE PRINTH (lines 86-91)."
+}
