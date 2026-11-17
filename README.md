@@ -1,4 +1,4 @@
-# *Comparative Study of a Stochastic Pure Death Process and Cox Proportional Hazards Models in Analyzing Survival of Breast Cancer in Netherlands Women*
+# Comparative Study of a Stochastic Pure Death Process and Cox Proportional Hazards Models in Analyzing Survival of Breast Cancer in Netherlands Women
 
 ### **Authors**
 - Oladipo Afolayan
@@ -28,6 +28,35 @@ This project investigates breast cancer survival among 272 women in the Netherla
 The goal is to evaluate how well a **stochastic process model**—rarely used in cancer survival research—performs relative to classical survival analysis tools.
 
 The study is novel in that it applies a **pure death process** to survival data and directly compares its predictive behavior to the Cox PH model.
+
+---
+## Installation
+
+```bash
+git clone https://github.com/niecestroa/death-process-vs-survival.git
+
+cd death-process-vs-survival
+
+pip install -r requirements.txt
+```
+
+## Skills Demonstrated
+
+- Survival Analysis
+- Cox Proportional Hazards Modeling
+- Kaplan-Meier Estimation
+- Hazard Rate Modeling
+- Pure Death Process Modeling
+- Stochastic Processes
+- Logistic Regression
+- Statistical Inference
+- Clinical Data Analysis
+- Model Comparison
+- Biostatistics
+- Health Outcomes Research
+- Python Programming
+- R Programming
+- Reproducible Research
 
 ---
 
@@ -117,3 +146,6 @@ This comparison highlights strengths and limitations of each approach and explor
 ## **Disclaimer (Academic Use Only)**  
 This repository and all associated analyses, simulations, figures, and documentation are intended **solely for academic, educational, and research purposes**. The methods, models, and results presented here **must not** be used for clinical decision‑making, medical guidance, or real‑world patient care.
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
